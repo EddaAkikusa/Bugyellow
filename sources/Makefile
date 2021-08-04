@@ -2,7 +2,7 @@ EXEC		= bugyellow
 SRC_FILES	= main.cpp
 O_FILES		= $(SRC_FILES:%.cpp=%.o)
 
-CXXFLAGS	= -I/opt/finalcut/include
+CXXFLAGS	= -std=c++17 -I/opt/finalcut/include
 LDFLAGS		= -L/opt/finalcut/lib -lfinal
 
 all: $(EXEC)
