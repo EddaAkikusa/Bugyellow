@@ -7,6 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_subdirectory(tvision)
 
-add_executable(bugyellow main.cpp)
+add_executable(bugyellow main.cpp bugyellowapp.cpp)
 
 target_link_libraries(bugyellow tvision)
