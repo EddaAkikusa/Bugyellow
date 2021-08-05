@@ -1,6 +1,0 @@
-{
-    "C_Cpp.default.includePath": [
-        "/opt/finalcut/include"
-    ],
-    "C_Cpp.default.cppStandard": "c++17"
-}
